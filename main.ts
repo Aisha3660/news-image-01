@@ -20,7 +20,7 @@ const ASSET_FILENAME = "observer.jpg";
 const TARGET_WIDTH = 1024;
 const TARGET_HEIGHT = 1024;
 const BYTE_LIMIT = 1048576;
-const EXPECTED_DIGEST = "34654c84deafc612030f6629517d3f35cee49b10ce4cf73c51b214116c09b35c";
+const EXPECTED_DIGEST = "6ee8ce5ea140aea2e39d57caa05447c4c4e0029d0ab6feaac609678eb6063b6a";
 
 function decodeSofResolution(raw: Buffer): { width: number; height: number } {
   if (raw.length < 4 || raw[0] !== 0xff || raw[1] !== 0xd8) {
